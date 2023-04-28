@@ -7,6 +7,12 @@ This is an HF format unquantised model of [CarterAI's StableVicuna 13B](https://
 
 It is the result of merging the deltas from the above repository with the original Llama 13B weights.
 
+## Repositories available
+
+* [4bit GPTQ models for GPU inference](https://huggingface.co/TheBloke/stable-vicuna-13B-GPTQ).
+* [4bit and 5bit GGML models for CPU inference](https://huggingface.co/TheBloke/stable-vicuna-13B-GGML).
+* [Unquantised 16bit model in HF format](https://huggingface.co/TheBloke/stable-vicuna-13B-HF).
+
 # Original StableVicuna-13B model card
 
 ## Model Description
