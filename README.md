@@ -1,5 +1,15 @@
 ---
-license: other
+language:
+  - en
+tags:
+  - causal-lm
+  - llama
+license: cc-by-nc-sa-4.0
+datasets:
+  - OpenAssistant/oasst1
+  - nomic-ai/gpt4all_prompt_generations
+  - tatsu-lab/alpaca
+inference: true
 ---
 # StableVicuna-13B
 
