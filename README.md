@@ -23,6 +23,15 @@ It is the result of merging the deltas from the above repository with the origin
 * [4bit and 5bit GGML models for CPU inference](https://huggingface.co/TheBloke/stable-vicuna-13B-GGML).
 * [Unquantised 16bit model in HF format](https://huggingface.co/TheBloke/stable-vicuna-13B-HF).
 
+## PROMPT TEMPLATE
+
+This model requires the following prompt template:
+
+```
+### Human: your prompt here
+### Assistant:
+```
+
 # Original StableVicuna-13B model card
 
 ## Model Description
