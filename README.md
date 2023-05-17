@@ -13,15 +13,15 @@ inference: true
 ---
 # StableVicuna-13B
 
-This is an HF format unquantised model of [CarterAI's StableVicuna 13B](https://huggingface.co/CarperAI/stable-vicuna-13b-delta).
+This is an HF format unquantised float16 model of [CarperAI's StableVicuna 13B](https://huggingface.co/CarperAI/stable-vicuna-13b-delta).
 
 It is the result of merging the deltas from the above repository with the original Llama 13B weights.
 
 ## Repositories available
 
 * [4bit GPTQ models for GPU inference](https://huggingface.co/TheBloke/stable-vicuna-13B-GPTQ).
-* [4bit and 5bit GGML models for CPU inference](https://huggingface.co/TheBloke/stable-vicuna-13B-GGML).
-* [Unquantised 16bit model in HF format](https://huggingface.co/TheBloke/stable-vicuna-13B-HF).
+* [4-bit, 5-bit and 8-bit GGML models for CPU (+CUDA) inference](https://huggingface.co/TheBloke/stable-vicuna-13B-GGML).
+* [Unquantised float16 model in HF format](https://huggingface.co/TheBloke/stable-vicuna-13B-HF).
 
 ## PROMPT TEMPLATE
 
