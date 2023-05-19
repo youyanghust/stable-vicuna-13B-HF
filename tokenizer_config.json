@@ -3,7 +3,7 @@
   "add_eos_token": false,
   "bos_token": {
     "__type": "AddedToken",
-    "content": "",
+    "content": "<s>",
     "lstrip": false,
     "normalized": true,
     "rstrip": false,
@@ -12,7 +12,7 @@
   "clean_up_tokenization_spaces": false,
   "eos_token": {
     "__type": "AddedToken",
-    "content": "",
+    "content": "</s>",
     "lstrip": false,
     "normalized": true,
     "rstrip": false,
@@ -20,12 +20,11 @@
   },
   "model_max_length": 2048,
   "pad_token": null,
-  "padding_side": "right",
   "sp_model_kwargs": {},
   "tokenizer_class": "LlamaTokenizer",
   "unk_token": {
     "__type": "AddedToken",
-    "content": "",
+    "content": "<unk>",
     "lstrip": false,
     "normalized": true,
     "rstrip": false,
