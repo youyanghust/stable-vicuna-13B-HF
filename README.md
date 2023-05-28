@@ -11,6 +11,17 @@ datasets:
   - tatsu-lab/alpaca
 inference: true
 ---
+<div style="width: 100%;">
+    <img src="https://i.imgur.com/EBdldam.jpg" alt="TheBlokeAI" style="width: 100%; min-width: 400px; display: block; margin: auto;">
+</div>
+<div style="display: flex; justify-content: space-between; width: 100%;">
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+        <p><a href="https://discord.gg/UBgz4VXf">Chat & support: my new Discord server</a></p>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: flex-end;">
+        <p><a href="https://www.patreon.com/TheBlokeAI">Want to contribute? Patreon coming soon!</a></p>
+    </div>
+</div>
 # StableVicuna-13B
 
 This is an HF format unquantised float16 model of [CarperAI's StableVicuna 13B](https://huggingface.co/CarperAI/stable-vicuna-13b-delta).
@@ -31,6 +42,18 @@ This model requires the following prompt template:
 ### Human: your prompt here
 ### Assistant:
 ```
+
+## Want to support my work?
+
+I've had a lot of people ask if they can contribute. I love providing models and helping people, but it is starting to rack up pretty big cloud computing bills.
+
+So if you're able and willing to contribute, it'd be most gratefully received and will help me to keep providing models, and work on various AI projects.
+
+Donaters will get priority support on any and all AI/LLM/model questions, and I'll gladly quantise any model you'd like to try.
+
+* Patreon: coming soon! (just awaiting approval)
+* Ko-Fi: https://ko-fi.com/TheBlokeAI
+* Discord: https://discord.gg/UBgz4VXf
 
 # Original StableVicuna-13B model card
 
@@ -179,7 +202,7 @@ This work would not have been possible without the support of [Stability AI](htt
                   Zack Witten and
                   alexandremuzio and
                   crumb},
-  title        = {{CarperAI/trlx: v0.6.0: LLaMa (Alpaca), Benchmark 
+  title        = {{CarperAI/trlx: v0.6.0: LLaMa (Alpaca), Benchmark
                    Util, T5 ILQL, Tests}},
   month        = mar,
   year         = 2023,
